@@ -1,7 +1,12 @@
-# Portscan
+<div align=center>
+    <h1>Portscan</h1>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"></img>
+    <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask"></img>
+    <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQlite"></img>
+    <img src="    https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="SQlite"></img>
+</div>
 
-Portscan is a lightweight **web-based port scanner** that helps you identify exposed services on both local and external networks.  
-Unlike traditional command-line scanners, it provides a clean web interface, real-time results, and exportable reports.  
+Portscan is a lightweight **web-based port scanner** that helps you identify exposed services on both local and external networks. Unlike traditional command-line scanners, it provides a clean web interface, real-time results, and exportable reports.  
 
 ---
 
@@ -17,67 +22,83 @@ Unlike traditional command-line scanners, it provides a clean web interface, rea
 
 ## Requirements
 - Python 3.10+  
-- pip  
-- geoip (`pip install geoip`)  
+- pip 24+
 
 ---
 
 ## Installation and Usage
 
 
-# Clone the repository
+#### Clone the repository
+```
 git clone https://github.com/OfficialPapotti/portscan
 cd portscan
+```
 
-# Create and activate virtual environment
+#### Create and activate virtual environment
+```
 python -m venv .venv
-source .venv/bin/activate   # On Windows: .venv\Scripts\Activate.ps1
+source .venv/bin/activate   
+```
+- On Windows: `.venv\Scripts\Activate.ps1`
 
-# Install dependencies
-pip install flask geoip
 
-# Run the web application
-python app.py
+#### Install dependencies
+```
+pip install -r requirements.txt
+```
 
-# Open your browser at:
-# http://127.0.0.1:5000
+#### Run the web application
+```
+python3 app.py
+```
 
-# Example:
-# Enter IP/range (192.168.0.0/24) and ports (80,443,3306)
-# Results stored in portscan.db
-# Export as CSV or JSONL with filters
+#### Open your browser at:
+```
+http://127.0.0.1:5000
+```
+
+Example:
+- Enter IP/range (192.168.0.0/24) and ports (80,443,3306)
+- Results stored in portscan.db
+- Export as CSV or JSONL with filters
 
 ---
-
 
 ##  Troubleshooting:
 
-# If geoip not found
+- If geoip not found
+```
 pip install geoip
+```
 
-# If port 5000 already in use
+- If port 5000 already in use
+```
 flask run --port 8001
+```
 
-# If no banners are shown:
-# Some services require specific payloads, check payloads directory.
+- If no banners are shown:
+
+Some services require specific payloads, check payloads directory.
 
 ---
 
-About this project
-Portscan is a project I’m developing solo. Every bit of support helps me invest more time and energy into improving the tool.
+## About this project
+Portscan is a project I’m developing solo. Every bit of support helps me invest more time and energy into improving the tool. 
 
 My goal is to take Portscan beyond a simple port scanner and turn it into a complete solution with visual reports, robust databases, and features that make life easier for pentesters and sysadmins.
 
 This project is personal to me because it started from the idea of turning technical knowledge into something practical and accessible.
 Your support motivates me to keep releasing updates, improving features, and pushing the project forward.
 
+---
+
 ## Support the project with Crypto:
 
-BTC (BTC): 1HiKDjNoLLdSqFLR8c9R694RLC9R1V7EQQ
+**BTC (BTC):** `1HiKDjNoLLdSqFLR8c9R694RLC9R1V7EQQ`
 
-ETH  (ERC-20): 0xf05d5e3f21d763310ed65d9cab84d37730030e66
+**ETH  (ERC-20):** `0xf05d5e3f21d763310ed65d9cab84d37730030e66`
 
-USDT (TRC-20): TPAqCWxDdibPDKpC1TqffaKR5oxommurcp
+**USDT (TRC-20):** `TPAqCWxDdibPDKpC1TqffaKR5oxommurcp`
 
-USDT (TON): UQArbX0DPYvkEUgF9e-0ReM0oDl10PtaJEoT1v56kZXZbBwd
-
+**USDT (TON):** `UQArbX0DPYvkEUgF9e-0ReM0oDl10PtaJEoT1v56kZXZbBwd`
