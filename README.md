@@ -3,7 +3,7 @@
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"></img>
     <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask"></img>
     <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQlite"></img>
-    <img src="    https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="SQlite"></img>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"></img>
 </div>
 
 Portscan is a lightweight **web-based port scanner** that helps you identify exposed services on both local and external networks. Unlike traditional command-line scanners, it provides a clean web interface, real-time results, and exportable reports.  
